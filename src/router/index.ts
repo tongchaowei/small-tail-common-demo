@@ -2,6 +2,8 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 // 导入 vite-plugin-pages 插件自动生成的路由配置
 import routes from '~pages'
 
+console.log(routes)
+
 const router = createRouter({
   // 页面历史模式采用 hash 模式（网页 url 中带 #）
   history: createWebHashHistory(),
