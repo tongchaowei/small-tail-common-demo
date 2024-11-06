@@ -1,3 +1,5 @@
+import stLoginPage1Screenshot from "@/pages/index/demo-page-screenshots/st-login-page-1.ts"
+
 export type DemoPageData = {
   routeName: string;
   title: string;
@@ -21,7 +23,7 @@ export const demoPageDataList: DemoPageData[] = [
   {
     routeName: 'st-login-page-1',
     title: '登录页面组件 1',
-    imgSrc: '/images/bgs/1.webp',
+    imgSrc: stLoginPage1Screenshot,
     codePath: '/StLoginPage1',
     docPath: '/ui-vue3/login-page-1/',
   },
