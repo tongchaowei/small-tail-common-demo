@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       st-common-ui-vue3:
-        specifier: ^0.6.1
-        version: 0.6.1(@babel/parser@7.26.2)(rollup@4.24.4)(typescript@5.6.3)
+        specifier: ^0.7.0
+        version: 0.7.0(@babel/parser@7.26.2)(rollup@4.24.4)(typescript@5.6.3)
       vue:
         specifier: ^3.5.12
         version: 3.5.12(typescript@5.6.3)
@@ -1120,8 +1120,8 @@ packages:
   st-common-ui-utils@0.1.1:
     resolution: {integrity: sha512-xyOcdGNbX+E71gPWXS07LbN2nphHq0r2iQkKyhet/j0A95HfkO4+vkkbns5WLtz7sttBJiMHGIIUKr5NUDUybg==}
 
-  st-common-ui-vue3@0.6.1:
-    resolution: {integrity: sha512-jS78eR6VXtLvomH6HWTy0XJncJsjpc14GD3D49HNjiaOXqilfZRDxmsS+zsfSPdSnC2xxf7cLWDU8ndg+2e9qA==}
+  st-common-ui-vue3@0.7.0:
+    resolution: {integrity: sha512-sRFysgmMB8YwZULVTeJnY6xdQ2Ei8K7eEKtJR9BYRlMcJAXD1PiSW3Qfx+J/kX8n1zO7siQ2v5WTG2zodO0wkQ==}
 
   string-width@4.2.3:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
@@ -2283,7 +2283,7 @@ snapshots:
 
   st-common-ui-utils@0.1.1: {}
 
-  st-common-ui-vue3@0.6.1(@babel/parser@7.26.2)(rollup@4.24.4)(typescript@5.6.3):
+  st-common-ui-vue3@0.7.0(@babel/parser@7.26.2)(rollup@4.24.4)(typescript@5.6.3):
     dependencies:
       '@vueuse/core': 11.2.0(vue@3.5.12(typescript@5.6.3))
       st-common-core: 0.1.1

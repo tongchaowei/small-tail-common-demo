@@ -1,4 +1,5 @@
 import stLoginPage1Screenshot from "@/pages/index/demo-page-screenshots/st-login-page-1.ts"
+import stDynamicBorder1Screenshot from "@/pages/index/demo-page-screenshots/st-dynamic-border-1.ts"
 
 export type DemoPageData = {
   routeName: string;
@@ -26,5 +27,12 @@ export const demoPageDataList: DemoPageData[] = [
     imgSrc: stLoginPage1Screenshot,
     codePath: '/StLoginPage1',
     docPath: '/ui-vue3/login-page-1/',
+  },
+  {
+    routeName: 'st-dynamic-border-1',
+    title: '动态边框组件 1',
+    imgSrc: stDynamicBorder1Screenshot,
+    codePath: '/StDynamicBorder1',
+    docPath: '/ui-vue3/dynamic-border-1/',
   },
 ]
