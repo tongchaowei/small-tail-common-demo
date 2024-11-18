@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "st-common-ui-vue3": "^0.7.0",
+    "st-common-ui-vue3": "^0.8.1",
     "vue": "^3.5.12"
   },
   "devDependencies": {

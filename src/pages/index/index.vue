@@ -59,7 +59,7 @@ onMounted(() => {
               <div class="pt-8 text-2xl font-bold text-center">{{ demoPageData.title }}</div>
             </template>
             <template #content>
-              <div class="mt-2 flex flex-col gap-4">
+              <div class="mt-4 flex flex-col gap-4">
                 <div class="flex flex-wrap justify-center items-center gap-4 text-sky-500">
                   <a :href="DOC_BASE_PATH_GHPAGES + demoPageData.docPath" target="_blank">组件文档（GitHub Pages）</a>
                   <a :href="DOC_BASE_PATH_NETLIFY + demoPageData.docPath" target="_blank">组件文档（Netlify）</a>
