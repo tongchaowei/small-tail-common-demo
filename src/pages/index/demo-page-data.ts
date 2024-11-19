@@ -43,4 +43,11 @@ export const demoPageDataList: DemoPageData[] = [
     codePath: '/StGradientBg1',
     docPath: '/ui-vue3/gradient-bg-1/',
   },
+  {
+    routeName: 'st-gradient-bg-2',
+    title: '过渡动画背景组件 2',
+    imgSrc: stGradientBg1Screenshot,
+    codePath: '/StGradientBg2',
+    docPath: '/ui-vue3/gradient-bg-2/',
+  },
 ]
