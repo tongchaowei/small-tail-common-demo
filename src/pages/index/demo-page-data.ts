@@ -1,6 +1,8 @@
 import stLoginPage1Screenshot from "@/pages/index/demo-page-screenshots/st-login-page-1.ts"
 import stDynamicBorder1Screenshot from "@/pages/index/demo-page-screenshots/st-dynamic-border-1.ts"
 import stGradientBg1Screenshot from "@/pages/index/demo-page-screenshots/st-gradient-bg-1.ts"
+import stGradientBg2Screenshot from "@/pages/index/demo-page-screenshots/st-gradient-bg-2.ts"
+import stGhostTextScreenshot from "@/pages/index/demo-page-screenshots/st-ghost-text.ts"
 
 export type DemoPageData = {
   routeName: string;
@@ -46,8 +48,15 @@ export const demoPageDataList: DemoPageData[] = [
   {
     routeName: 'st-gradient-bg-2',
     title: '过渡动画背景组件 2',
-    imgSrc: stGradientBg1Screenshot,
+    imgSrc: stGradientBg2Screenshot,
     codePath: '/StGradientBg2',
     docPath: '/ui-vue3/gradient-bg-2/',
+  },
+  {
+    routeName: 'st-ghost-text',
+    title: '幽灵文本组件',
+    imgSrc: stGhostTextScreenshot,
+    codePath: '/StGhostText',
+    docPath: '/ui-vue3/ghost-text/',
   },
 ]
