@@ -3,6 +3,7 @@ import stDynamicBorder1Screenshot from "@/pages/index/demo-page-screenshots/st-d
 import stGradientBg1Screenshot from "@/pages/index/demo-page-screenshots/st-gradient-bg-1.ts"
 import stGradientBg2Screenshot from "@/pages/index/demo-page-screenshots/st-gradient-bg-2.ts"
 import stGhostTextScreenshot from "@/pages/index/demo-page-screenshots/st-ghost-text.ts"
+import st3DTextScreenshot from "@/pages/index/demo-page-screenshots/st-3d-text.ts"
 
 export type DemoPageData = {
   routeName: string;
@@ -58,5 +59,12 @@ export const demoPageDataList: DemoPageData[] = [
     imgSrc: stGhostTextScreenshot,
     codePath: '/StGhostText',
     docPath: '/ui-vue3/ghost-text/',
+  },
+  {
+    routeName: 'st-3d-text',
+    title: '3D 文本组件',
+    imgSrc: st3DTextScreenshot,
+    codePath: '/St3DText',
+    docPath: '/ui-vue3/3d-text/',
   },
 ]
